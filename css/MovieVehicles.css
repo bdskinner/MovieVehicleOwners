@@ -1,0 +1,210 @@
+﻿/* Tags */
+
+a
+{
+    font-size: 14pt;
+}
+
+blockquote 
+{
+    font-family:Cambria, sans-serif;
+    text-decoration: none; 
+}
+
+body 
+{
+    background-color: white; 
+    background-image:url('../images/CadillacFront.jpg');
+    background-repeat:repeat-y;
+    background-size:100%;
+}
+
+button
+{
+    font-size: 15pt;
+}
+
+div
+{
+    color:black; 
+    font-family:Cambria; 
+    font-size:12pt;  
+    text-align: center;
+}
+
+fieldset  
+{
+    margin:auto;
+    background: rgba(232, 235, 236, 0.55);
+    width:70%;  /* 200%; */
+    font-size: 15pt;
+}
+
+h1 
+{
+    /* color:#33a457; */
+    color:#01912f;
+    font-family:'Century Gothic';  /* Cambria; */
+    font-weight:200; 
+    text-shadow: 3px 4px 6px #3636369f;
+}
+
+h2 
+{
+    color:#01912f;
+    font-family:'Century Gothic';  /* Cambria; */
+    font-style: normal;
+    font-weight:200; 
+    text-shadow: 3px 4px 6px #4e4d4d9f;
+}
+
+ h3, h4  
+ {
+    color:#01912f;
+    font-family:'Century Gothic';  /* Cambria; */
+    font-size:14pt;
+    font-style: normal;
+    font-weight:200; 
+    text-shadow: 3px 4px 6px #4e4d4d9f;
+}
+
+ h5, h6 
+ {
+    color:black; 
+    font-family:'Century Gothic';  /* Cambria; */
+    font-size:12pt; 
+    font-weight:200; 
+    text-shadow: 3px 4px 6px #4e4d4d9f;
+}
+
+hr 
+{ 
+    height:4px; 
+    color:#108b37 ; 
+    background-color:#33a457; 
+}
+
+img 
+{
+    border:none;
+}
+
+li
+{
+    text-align:left; 
+    font-family:Cambria; 
+    font-size:14pt;
+    color:black; 
+}
+
+legend
+{
+    color:#33a457;
+    font-size:18pt;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+ol 
+{
+    text-align:left; 
+    font-family:Cambria; 
+    font-size:12pt; 
+    color:black; 
+}
+
+p 
+{ 
+    color :black;
+    font-family:Arial;  
+    font-size:16pt; 
+}
+
+select
+{
+    font-size: 14pt;
+}
+
+table 
+{
+    text-align:left; 
+    font-family:Cambria; 
+    color:black; 
+    border:5px solid #33a457 ; 
+    border-right: 2px solid #33a457 ; 
+    border-top: 2px solid #33a457 ; 
+    border-bottom: 2px solid #33a457; 
+}
+
+td 
+{
+    height:40px; 
+    font-family:Cambria; 
+    font-size:12pt; 
+    color:black; 
+    border-right: 2px solid #33a457; 
+    border-bottom: 2px solid #33a457 ;
+}
+
+th 
+{
+    font-size:14pt; 
+    font-weight:bold; 
+    font-family:Cambria; 
+    background-color:#33a457 ; 
+    color:white;
+}
+
+ul 
+{
+    text-align:left; 
+    font-family:Cambria; 
+    font-size:12pt;
+    color:black;
+
+    margin-left: auto;
+}
+
+/* Classes */
+
+div.center
+{
+    margin: auto;
+    text-align: center;
+    background: rgba(232, 235, 236, 0.75);
+    width:45%;
+}
+
+.flex-container 
+{
+    display: grid; 
+    margin: auto;
+    width: 80%;
+}
+
+/* Psuedo Classes */
+
+a:active 
+{
+    color: #2a1bfa;
+    text-decoration: none; 
+}
+
+a:link 
+{
+    color: #2a1bfa;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: #2a1bfa;
+    text-decoration: none; 
+}
+
+a:hover 
+{
+    color: rgb(228, 15, 15); 
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none; 
+}
